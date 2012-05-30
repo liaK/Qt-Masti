@@ -1,0 +1,25 @@
+<html>
+<form>
+
+First Number: <input type="text" name="fName" id="fName"/><br/>
+Second Number: <input type="text" name="sName" id="sName"/><br/>
+Sum: <input type="text" name="sum" readonly id="sum"/><br/>
+<input type="button" value="calculate" name="calcButton" onclick="calculateSum()" id="calculate"/>        
+<input type="button" value="cancel" name="cancelButton" onclick="cancelCalculation()" id="cancel"/><br/>
+</form>
+
+<script src="calculator.js">
+
+<!-- function calculateSum()
+{
+	if(window.CPPWorker)
+	{
+		var firstNumber = Number(document.getElementById('fName').value);
+		var secNumber = Number(document.getElementById('sName').value);
+		document.getElementById('sum').value = window.CPPWorker.sum(firstNumber,secNumber);
+		<!-->document.getElementById('sum').value = "MayBe :)";<-->
+	}
+} -->
+
+</script>
+</html>
