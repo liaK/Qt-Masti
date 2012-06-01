@@ -9,6 +9,7 @@
 CBridgeWidget::CBridgeWidget(QWidget *parent)
     : QWidget(parent)
 {
+	/// Made a change to test the branching functionality in git
     m_WebView = new QWebView();
     m_WidgetLayout = new QGridLayout(this);
 
